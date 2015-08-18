@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ToggleSwitch Example</title>
+    <link rel="stylesheet" href="lib/ToggleSwitch.css"/>
+</head>
+<body>
+<input type="checkbox" name="onoffswitch1" id="myonoffswitch1" checked><br>
+<input type="checkbox" name="onoffswitch2" id="myonoffswitch2">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="lib/ToggleSwitch.js"></script>
+<script>
+	$(function(){
+		$("#myonoffswitch1").toggleSwitch();
+		$("#myonoffswitch2").toggleSwitch();
+	});
+</script>
+</body>
+</html>
